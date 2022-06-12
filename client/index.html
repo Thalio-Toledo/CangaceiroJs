@@ -73,12 +73,19 @@
         </tr>
       </thead>
 
-      <tbody>
-    
-      </tbody>
+      <tbody></tbody>
 
       <tfoot></tfoot>
     </table>
     <script src="app/index.js"></script>
+    <script src="app/domain/negociacao/Negociacao.js"></script>
+    <script>
+      var n1 = new Negociacao(new Date(), 5, 700)
+
+      n1.data.setDate(14)
+      console.log(n1.data)
+
+      console.log(n1.data)
+    </script>
   </body>
 </html>
